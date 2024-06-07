@@ -8,7 +8,7 @@ const listaProductos = [
     precio: 887.5,
     envdisponible: true,
     stock: 7,
-    imagen: '/src/assets/imgs/lacteos/windy_leche_entera_tetra.jpg'
+    imagen: '../src/assets/imgs/lacteos/windy_leche_entera_tetra.jpg'
   },
   {
     id: 2,
