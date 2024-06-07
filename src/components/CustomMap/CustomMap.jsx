@@ -19,7 +19,7 @@ const CustomMap = () => {
         </MapContainer>
       </Box>
       <Box>
-        dddd
+      
       </Box>
 
     </Flex>
