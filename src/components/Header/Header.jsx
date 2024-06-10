@@ -28,7 +28,7 @@ const Header = () => {
     const { colorMode, toggleColorMode } = useColorMode();
 
     return (
-        <Box>
+        <Box id='inicio'>
             <Flex h={'14hv'} w={'100%'} align={'center'} className='flexboxNavBar' id='flexboxNavBarC'>
                 <ChakraLink href='https://www.correoargentino.com.ar/' isExternal marginLeft={'25px'} marginRight={'5px'}><Flex align="center"> <TbTruckDelivery />Segui tu compra</Flex></ChakraLink>
                 <ChakraLink href='#' isExternal marginLeft={'25px'} marginRight={'5px'}><Flex align="center"> <MdAccountBox />Contacto</Flex></ChakraLink>

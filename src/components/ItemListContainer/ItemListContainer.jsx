@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { obtenerProductos, obtenerProductosporID, obtenerProductosporCategoria } from '../../data/datos'
-import { Box, Divider, Flex, Heading, Text } from '@chakra-ui/react'
+import { Box, Divider, Flex, Heading, Text, useColorMode } from '@chakra-ui/react'
 import ItemList from '../ItemList/ItemList'
 import './ItemListContainer.css'
 import { useParams } from 'react-router-dom'
 import { ClockLoader } from 'react-spinners'
 
 const ItemListContainer = ({ title }) => {
+
+  const { colorMode } = useColorMode();
 
   const [productos, setProductos] = useState([])
 

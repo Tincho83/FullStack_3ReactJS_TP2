@@ -3,9 +3,8 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import { ChakraProvider } from '@chakra-ui/react'
-import ItemCount from './components/ItemCount/ItemCount';
 import Header from './components/Header/Header';
-import CustomMap from './components/CustomMap/CustomMap';
+import Footer from './components/Footer/Footer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import 'react-toastify/dist/ReactToastify.css';
@@ -33,7 +32,7 @@ function App() {
           <Route path='*' element={code404()} />
         </Routes>
       </BrowserRouter>
-      <CustomMap />
+      <Footer />
     </ChakraProvider>
   )
 }
