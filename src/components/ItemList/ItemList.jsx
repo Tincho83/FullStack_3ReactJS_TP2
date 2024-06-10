@@ -16,7 +16,5 @@ const ItemList = ({ productoss }) => {
 
 export default ItemList
 /*
-    <div className='GrupoLista'>
-      {productoss.map(prod => <Item key={prod.id} {...prod} />)}
-    </div>
+
 */

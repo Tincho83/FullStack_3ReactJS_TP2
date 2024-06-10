@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './Header.css'
 
-import CartWidget from "../CartWidget/CartWidget"
 import reactLogo from '../../assets/imagenes/mitiendaonline.png'
 
 
@@ -23,7 +22,7 @@ import { GiPlanetConquest } from "react-icons/gi";
 
 
 const Header = () => {
-    //console.log("002*Inicio: Header");
+
 
     const { colorMode, toggleColorMode } = useColorMode();
 

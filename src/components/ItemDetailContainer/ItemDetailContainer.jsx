@@ -14,13 +14,13 @@ const ItemDetailContainer = () => {
   const [cargando, establecerCargando] = useState(true)
   const { productoId } = useParams()
 
-  const { navigate } = useNavigate()
+  const navigate = useNavigate()
 
   useEffect(() => {
     obtenerProductosporID(productoId)
       .then((respuesta) => {
         if (!respuesta) {
-          navigate("/*")
+          navigate('/*')
         } else {
           establecerProducto(respuesta)
         }
@@ -49,6 +49,5 @@ const ItemDetailContainer = () => {
 export default ItemDetailContainer
 
 /*
-<ItemDetail {...producto} />
-<ItemDetail producto={producto} />
+
 */

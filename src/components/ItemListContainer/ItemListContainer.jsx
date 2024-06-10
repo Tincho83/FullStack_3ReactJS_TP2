@@ -48,11 +48,4 @@ export default ItemListContainer
 
 /*
 
-    obtenerProductos()
-      .then(response => {
-        setProductos(response)
-      })
-      .catch(error => {
-        console.error(error)
-      })
 */

@@ -60,41 +60,6 @@ export default ItemDetail
 
 
 /*
- <article className='CardItem'>
-            <header className='Header'>
-                <h2 className='ItemHeader'>
-                    {nombre}
-                </h2>
-            </header>
-            <picture>
-                <img src={imagen} alt={nombre} className="ItemImg" />
-            </picture>
-            <section>
-                <p className='Info'>
-                    Categoria: {categoria}
-                </p>
-                <p className='Info'>
-                    Marca: {marca}
-                </p>
-                <p className='Info'>
-                    Descripcion: {descripcion}
-                </p>
-                <p className='Info'>
-                    Precio: {precio}
-                </p>
-                <p className='Info'>
-                    Stock: {stock}
-                </p>
-                <p className='Info'>
-                    Apto para envio: {envio}
-                </p>
-            </section>
-            <footer className='ItemFooter'>
-                <ItemCount valorInicial={1} stock={stock} alAgregar={alAgregar} ></ItemCount>
-                <ToastContainer />
-            </footer>
 
-        </article>
- 
 
 */

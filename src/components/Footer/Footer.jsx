@@ -146,34 +146,6 @@ export default Footer
 
 /*
 
-'../../assets/imgs/varios/subir.png'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 */

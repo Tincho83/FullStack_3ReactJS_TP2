@@ -6,7 +6,7 @@ const listaProductos = [
     categoria: 'Leche',
     marca: 'Windy',
     precio: 887.5,
-    envdisponible: true,
+    envdisponible: false,
     stock: 7,
     imagen: '/src/assets/imgs/lacteos/windy_leche_entera_tetra.jpg'
   },
@@ -17,7 +17,7 @@ const listaProductos = [
     categoria: 'Leche',
     marca: 'Windy',
     precio: 892.0,
-    envdisponible: true,
+    envdisponible: false,
     stock: 3,
     imagen: "/src/assets/imgs/lacteos/windy_leche_descremada_tetra.jpg"
   },
@@ -28,7 +28,7 @@ const listaProductos = [
     categoria: 'Queso',
     marca: 'Windy',
     precio: 19570,
-    envdisponible: true,
+    envdisponible: false,
     stock: 5,
     imagen: '/src/assets/imgs/lacteos/windy_queso_cuartirolo.jpg'
   },
@@ -39,7 +39,7 @@ const listaProductos = [
     categoria: 'Queso',
     marca: 'Windy',
     precio: 20900,
-    envdisponible: true,
+    envdisponible: false,
     stock: 7,
     imagen: '/src/assets/imgs/lacteos/windy_queso_port_salut.jpg'
   },
@@ -50,7 +50,7 @@ const listaProductos = [
     categoria: 'Queso',
     marca: 'Windy',
     precio: 2000,
-    envdisponible: true,
+    envdisponible: false,
     stock: 10,
     imagen: '/src/assets/imgs/lacteos/windy_queso_reggianito.jpg'
   },
@@ -61,7 +61,7 @@ const listaProductos = [
     categoria: 'Crema',
     marca: 'Windy',
     precio: 3850,
-    envdisponible: true,
+    envdisponible: false,
     stock: 10,
     imagen: '/src/assets/imgs/lacteos/windy_crema_de_leche.jpg'
   },
@@ -83,7 +83,7 @@ const listaProductos = [
     categoria: 'Manteca',
     marca: 'Windy',
     precio: 3000,
-    envdisponible: true,
+    envdisponible: false,
     stock: 10,
     imagen: '/src/assets/imgs/lacteos/windy_manteca_200.jpg'
   },
@@ -94,7 +94,7 @@ const listaProductos = [
     categoria: 'Yogurt',
     marca: 'Windy',
     precio: 1100,
-    envdisponible: true,
+    envdisponible: false,
     stock: 10,
     imagen: '/src/assets/imgs/lacteos/windy_yogur_durazno_light_sachet.jpg'
   },
@@ -105,7 +105,7 @@ const listaProductos = [
     categoria: 'Yogurt',
     marca: 'Windy',
     precio: 1260,
-    envdisponible: true,
+    envdisponible: false,
     stock: 10,
     imagen: '/src/assets/imgs/lacteos/windy_yogur_vainilla_sachet.jpg'
   },
@@ -116,7 +116,7 @@ const listaProductos = [
     categoria: 'Yogurt',
     marca: 'Ilolay',
     precio: 1400,
-    envdisponible: true,
+    envdisponible: false,
     stock: 10,
     imagen: '/src/assets/imgs/lacteos/ilolay_yogur_vainilla_tetrapack.png'
   },
@@ -127,7 +127,7 @@ const listaProductos = [
     categoria: 'Yogurt',
     marca: 'Ilolay',
     precio: 1260,
-    envdisponible: true,
+    envdisponible: false,
     stock: 10,
     imagen: '/src/assets/imgs/lacteos/ilolay_yogur_frutilla_tetrapack.png'
   },
