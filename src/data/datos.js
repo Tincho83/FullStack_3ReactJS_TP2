@@ -2,7 +2,7 @@ const listaProductos = [
   {
     id: 1,
     nombre: 'Leche Entera 1Lt',
-    descripcion: 'Leche',
+    descripcion: 'Leche Pasteurizada.',
     categoria: 'Leche',
     marca: 'Windy',
     precio: 887.5,
@@ -13,7 +13,7 @@ const listaProductos = [
   {
     id: 2,
     nombre: 'Leche Descremada 1Lt',
-    descripcion: 'Leche',
+    descripcion: 'Leche Pasteurizada.',
     categoria: 'Leche',
     marca: 'Windy',
     precio: 892.0,
@@ -24,7 +24,7 @@ const listaProductos = [
   {
     id: 3,
     nombre: 'Queso Cremoso 1Kg',
-    descripcion: 'Queso',
+    descripcion: 'Queso bajo en sodio.',
     categoria: 'Queso',
     marca: 'Windy',
     precio: 19570,
@@ -35,7 +35,7 @@ const listaProductos = [
   {
     id: 4,
     nombre: 'Queso Port Salut 1Kg',
-    descripcion: 'Queso',
+    descripcion: 'Queso Port Salut bajo en calorias.',
     categoria: 'Queso',
     marca: 'Windy',
     precio: 20900,
@@ -46,7 +46,7 @@ const listaProductos = [
   {
     id: 5,
     nombre: 'Queso Rallado 400grs',
-    descripcion: 'Queso',
+    descripcion: 'Queso bajo en sodio.',
     categoria: 'Queso',
     marca: 'Windy',
     precio: 2000,
@@ -57,7 +57,7 @@ const listaProductos = [
   {
     id: 6,
     nombre: 'Crema de Leche 350grs',
-    descripcion: 'Crema de Leche',
+    descripcion: 'Crema de Leche especial para pasteleria.',
     categoria: 'Crema',
     marca: 'Windy',
     precio: 3850,
@@ -68,7 +68,7 @@ const listaProductos = [
   {
     id: 7,
     nombre: 'Dulce de Leche 1kg',
-    descripcion: 'Dulce de Leche',
+    descripcion: 'Dulce de Leche Clasico.',
     categoria: 'Dulce',
     marca: 'Windy',
     precio: 2500,
@@ -79,7 +79,7 @@ const listaProductos = [
   {
     id: 8,
     nombre: 'Manteca 200grs',
-    descripcion: 'Manteca',
+    descripcion: 'Manteca Liviana',
     categoria: 'Manteca',
     marca: 'Windy',
     precio: 3000,
@@ -90,7 +90,7 @@ const listaProductos = [
   {
     id: 9,
     nombre: 'Yogurt Entero 1Lt',
-    descripcion: 'Yogurt',
+    descripcion: 'Yogurt Pasteurizado.',
     categoria: 'Yogurt',
     marca: 'Windy',
     precio: 1100,
@@ -101,7 +101,7 @@ const listaProductos = [
   {
     id: 10,
     nombre: 'Yogurt Light 1Lt',
-    descripcion: 'Yogurt',
+    descripcion: 'Yogurt Pasteurizado.',
     categoria: 'Yogurt',
     marca: 'Windy',
     precio: 1260,
@@ -112,7 +112,7 @@ const listaProductos = [
   {
     id: 11,
     nombre: 'Yogurt Entero Vainilla 1Lt Tetra',
-    descripcion: 'Yogurt',
+    descripcion: 'Yogurt Pasteurizado.',
     categoria: 'Yogurt',
     marca: 'Ilolay',
     precio: 1400,
@@ -123,7 +123,7 @@ const listaProductos = [
   {
     id: 12,
     nombre: 'Yogurt Light Frutilla 1Lt Tetra',
-    descripcion: 'Yogurt',
+    descripcion: 'Yogurt Pasteurizado.',
     categoria: 'Yogurt',
     marca: 'Ilolay',
     precio: 1260,
@@ -207,6 +207,28 @@ const listaProductos = [
     envdisponible: true,
     stock: 3,
     imagen: '/src/assets/imgs/infusiones/nescafe-gold-colombia_5.png'
+  },
+  {
+    id: 20,
+    nombre: 'Azucar Pura Caña Clasica',
+    descripcion: 'El azúcar que te acompaña desde hace más de 115 años. Ideal para cocinar todo lo que te gusta.',
+    categoria: 'Azucar',
+    marca: 'Ledesma',
+    precio: 760,
+    envdisponible: true,
+    stock: 3,
+    imagen: '/src/assets/imgs/azucar/azucarclasica.png'
+  },
+  {
+    id: 21,
+    nombre: 'Azucar Pura Caña Superior',
+    descripcion: 'Un azúcar blanco refinado para que tus preparaciones, merengues y glaseados marquen la diferencia.',
+    categoria: 'Azucar',
+    marca: 'Ledesma',
+    precio: 830,
+    envdisponible: true,
+    stock: 3,
+    imagen: '/src/assets/imgs/azucar/azucarsuperior.png'
   }
 ]
 

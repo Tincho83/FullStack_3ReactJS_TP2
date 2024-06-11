@@ -17,7 +17,7 @@ const Item = ({ id, nombre, categoria, marca, precio, envdisponible, stock, imag
         <Flex>
             <Card maxW='sm' className='CardItem'>
                 <CardBody className='Header'>
-                    <Image src={imagen} alt={nombre} borderRadius='lg' />
+                    <Image src={imagen} alt={nombre} borderRadius='lg' className='ImgPic'/>
                     <Stack className='ItemData' mt='6' spacing='3'>
                         <Text>{categoria}</Text>
                         <Heading size='md'>{nombre} {marca}</Heading>

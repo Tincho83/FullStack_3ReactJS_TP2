@@ -28,6 +28,38 @@ const ItemDetail = ({ id, nombre, descripcion, categoria, marca, precio, envdisp
         <Flex>
             <Card maxW='sm' className='CardItem'>
                 <CardBody className='Header'>
+                    <Image src={imagen} alt={nombre} borderRadius='lg' className='ImgPic'/>
+                    <Stack className='ItemData' mt='6' spacing='3'>
+                        <Text>{categoria}</Text>
+                        <Heading size='md'> {marca} {nombre} </Heading>
+                        <Text color='blue.600' fontSize='2xl'>${precio}</Text>
+                        <Text color='blue.600' fontSize='1xl'>Disponibilidad: {stock}  &nbsp;&nbsp;&nbsp; Envio a Domicilio: {envio}</Text>
+                        <Text color='black.900' fontSize='19px'> {descripcion} </Text>
+                    </Stack>
+                </CardBody>
+                <Divider />
+                <CardFooter className='ItemCardFooter'>
+
+                    <Box className='ItemCardText' color='blue.600' fontSize='1xl'>
+                        <Text className='ItemCantText'>Cantidad:</Text>
+                        <ItemCount stock={stock} valorInicial={1} alAgregar={alAgregar}/>
+                        <ToastContainer />
+                    </Box>
+                </CardFooter>
+            </Card>
+        </Flex>
+
+    )
+}
+
+export default ItemDetail
+
+
+/*
+ return (
+        <Flex>
+            <Card maxW='sm' className='CardItem'>
+                <CardBody className='Header'>
                     <Image src={imagen} alt={nombre} borderRadius='lg' />
                     <Stack className='ItemData' mt='6' spacing='3'>
                         <Text>{categoria}</Text>
@@ -54,12 +86,5 @@ const ItemDetail = ({ id, nombre, descripcion, categoria, marca, precio, envdisp
         </Flex>
 
     )
-}
-
-export default ItemDetail
-
-
-/*
-
 
 */

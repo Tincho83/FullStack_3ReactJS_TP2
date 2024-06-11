@@ -4,7 +4,7 @@ import CartWidget from "../CartWidget/CartWidget"
 
 import { IoMdMenu } from "react-icons/io";
 import { LuMilk } from "react-icons/lu";
-import { GiMasonJar, GiButter, GiMilkCarton, GiCoffeeBeans } from "react-icons/gi";
+import { GiMasonJar, GiSugarCane, GiButter, GiMilkCarton, GiCoffeeBeans } from "react-icons/gi";
 import { PiCheese } from "react-icons/pi";
 import { TbMilk, TbWorldSearch, TbCategory } from "react-icons/tb";
 
@@ -63,6 +63,11 @@ const NavBar = () => {
                         <MenuItem command='' className='botonMenuItem'>
                             <Link to='/categoria/Cafe'>
                                 <Flex align="center"> <GiCoffeeBeans /> Cafe</Flex>
+                            </Link>
+                        </MenuItem>
+                        <MenuItem command='' className='botonMenuItem'>
+                            <Link to='/categoria/Azucar'>
+                                <Flex align="center"> <GiSugarCane /> Azucar</Flex>
                             </Link>
                         </MenuItem>
                         <MenuItem command='' className='botonMenuItem'>
